@@ -1,0 +1,144 @@
+Tile Size: 2
+==27304== Cachegrind, a cache and branch-prediction profiler
+==27304== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27304== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27304== Command: ./binaries/multiply_tile 512 2
+==27304== 
+--27304-- warning: L3 cache found, using its data for the LL simulation.
+==27304== 
+==27304== I   refs:      19,981,439,210
+==27304== I1  misses:             2,174
+==27304== LLi misses:             2,099
+==27304== I1  miss rate:           0.00%
+==27304== LLi miss rate:           0.00%
+==27304== 
+==27304== D   refs:      11,621,703,558  (7,870,536,847 rd   + 3,751,166,711 wr)
+==27304== D1  misses:        54,813,457  (   54,645,737 rd   +       167,720 wr)
+==27304== LLd misses:         8,663,148  (    8,496,386 rd   +       166,762 wr)
+==27304== D1  miss rate:            0.5% (          0.7%     +           0.0%  )
+==27304== LLd miss rate:            0.1% (          0.1%     +           0.0%  )
+==27304== 
+==27304== LL refs:           54,815,631  (   54,647,911 rd   +       167,720 wr)
+==27304== LL misses:          8,665,247  (    8,498,485 rd   +       166,762 wr)
+==27304== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------
+Tile Size: 4
+==27375== Cachegrind, a cache and branch-prediction profiler
+==27375== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27375== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27375== Command: ./binaries/multiply_tile 512 4
+==27375== 
+--27375-- warning: L3 cache found, using its data for the LL simulation.
+==27375== 
+==27375== I   refs:      18,791,861,226
+==27375== I1  misses:             2,174
+==27375== LLi misses:             2,099
+==27375== I1  miss rate:           0.00%
+==27375== LLi miss rate:           0.00%
+==27375== 
+==27375== D   refs:      10,843,315,206  (7,165,598,095 rd   + 3,677,717,111 wr)
+==27375== D1  misses:        18,205,624  (   18,037,904 rd   +       167,720 wr)
+==27375== LLd misses:         4,452,517  (    4,285,755 rd   +       166,762 wr)
+==27375== D1  miss rate:            0.2% (          0.3%     +           0.0%  )
+==27375== LLd miss rate:            0.0% (          0.1%     +           0.0%  )
+==27375== 
+==27375== LL refs:           18,207,798  (   18,040,078 rd   +       167,720 wr)
+==27375== LL misses:          4,454,616  (    4,287,854 rd   +       166,762 wr)
+==27375== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------
+Tile Size: 8
+==27399== Cachegrind, a cache and branch-prediction profiler
+==27399== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27399== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27399== Command: ./binaries/multiply_tile 512 8
+==27399== 
+--27399-- warning: L3 cache found, using its data for the LL simulation.
+==27399== 
+==27399== I   refs:      18,375,715,178
+==27399== I1  misses:             2,174
+==27399== LLi misses:             2,099
+==27399== I1  miss rate:           0.00%
+==27399== LLi miss rate:           0.00%
+==27399== 
+==27399== D   refs:      10,572,958,278  (6,920,157,199 rd   + 3,652,801,079 wr)
+==27399== D1  misses:         7,550,235  (    7,382,515 rd   +       167,720 wr)
+==27399== LLd misses:         2,347,123  (    2,180,361 rd   +       166,762 wr)
+==27399== D1  miss rate:            0.1% (          0.1%     +           0.0%  )
+==27399== LLd miss rate:            0.0% (          0.0%     +           0.0%  )
+==27399== 
+==27399== LL refs:            7,552,409  (    7,384,689 rd   +       167,720 wr)
+==27399== LL misses:          2,349,222  (    2,182,460 rd   +       166,762 wr)
+==27399== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------
+Tile Size: 16
+==27432== Cachegrind, a cache and branch-prediction profiler
+==27432== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27432== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27432== Command: ./binaries/multiply_tile 512 16
+==27432== 
+--27432-- warning: L3 cache found, using its data for the LL simulation.
+==27432== 
+==27432== I   refs:      18,203,357,245
+==27432== I1  misses:             2,174
+==27432== LLi misses:             2,099
+==27432== I1  miss rate:           0.00%
+==27432== LLi miss rate:           0.00%
+==27432== 
+==27432== D   refs:      10,461,295,975  (6,818,688,848 rd   + 3,642,607,127 wr)
+==27432== D1  misses:        15,589,198  (   15,421,478 rd   +       167,720 wr)
+==27432== LLd misses:         1,294,533  (    1,127,771 rd   +       166,762 wr)
+==27432== D1  miss rate:            0.1% (          0.2%     +           0.0%  )
+==27432== LLd miss rate:            0.0% (          0.0%     +           0.0%  )
+==27432== 
+==27432== LL refs:           15,591,372  (   15,423,652 rd   +       167,720 wr)
+==27432== LL misses:          1,296,632  (    1,129,870 rd   +       166,762 wr)
+==27432== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------
+Tile Size: 32
+==27545== Cachegrind, a cache and branch-prediction profiler
+==27545== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27545== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27545== Command: ./binaries/multiply_tile 512 32
+==27545== 
+--27545-- warning: L3 cache found, using its data for the LL simulation.
+==27545== 
+==27545== I   refs:      18,124,988,829
+==27545== I1  misses:             2,174
+==27545== LLi misses:             2,099
+==27545== I1  miss rate:           0.00%
+==27545== LLi miss rate:           0.00%
+==27545== 
+==27545== D   refs:      10,410,569,719  (6,772,579,568 rd   + 3,637,990,151 wr)
+==27545== D1  misses:        19,176,574  (   19,008,854 rd   +       167,720 wr)
+==27545== LLd misses:           768,549  (      601,787 rd   +       166,762 wr)
+==27545== D1  miss rate:            0.2% (          0.3%     +           0.0%  )
+==27545== LLd miss rate:            0.0% (          0.0%     +           0.0%  )
+==27545== 
+==27545== LL refs:           19,178,748  (   19,011,028 rd   +       167,720 wr)
+==27545== LL misses:            770,648  (      603,886 rd   +       166,762 wr)
+==27545== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------
+Tile Size: 64
+==27619== Cachegrind, a cache and branch-prediction profiler
+==27619== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==27619== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==27619== Command: ./binaries/multiply_tile 512 64
+==27619== 
+--27619-- warning: L3 cache found, using its data for the LL simulation.
+==27619== 
+==27619== I   refs:      18,087,617,485
+==27619== I1  misses:             2,174
+==27619== LLi misses:             2,099
+==27619== I1  miss rate:           0.00%
+==27619== LLi miss rate:           0.00%
+==27619== 
+==27619== D   refs:      10,386,386,047  (6,750,595,136 rd   + 3,635,790,911 wr)
+==27619== D1  misses:        18,664,662  (   18,496,942 rd   +       167,720 wr)
+==27619== LLd misses:           506,793  (      340,031 rd   +       166,762 wr)
+==27619== D1  miss rate:            0.2% (          0.3%     +           0.0%  )
+==27619== LLd miss rate:            0.0% (          0.0%     +           0.0%  )
+==27619== 
+==27619== LL refs:           18,666,836  (   18,499,116 rd   +       167,720 wr)
+==27619== LL misses:            508,892  (      342,130 rd   +       166,762 wr)
+==27619== LL miss rate:             0.0% (          0.0%     +           0.0%  )
+----------------------------------------

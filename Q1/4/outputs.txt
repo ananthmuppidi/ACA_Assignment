@@ -1,0 +1,2 @@
+Average Memory Write Bandwidth: 5.75 GB/s
+Average Memory Read Bandwidth: 7.10 GB/s

@@ -1,0 +1,40 @@
+Running for value: 32
+cache-misses: 27000
+task-clock: 0.62
+--------------------------------
+Running for value: 64
+cache-misses: 27966
+task-clock: 0.59
+--------------------------------
+Running for value: 128
+cache-misses: 28032
+task-clock: 0.46
+--------------------------------
+Running for value: 256
+cache-misses: 27880
+task-clock: 0.48
+--------------------------------
+Running for value: 512
+cache-misses: 28004
+task-clock: 0.48
+--------------------------------
+Running for value: 1024
+cache-misses: 27695
+task-clock: 0.49
+--------------------------------
+Running for value: 2048
+cache-misses: 28750
+task-clock: 0.50
+--------------------------------
+Running for value: 4096
+cache-misses: 29569
+task-clock: 0.54
+--------------------------------
+Running for value: 8192
+cache-misses: 30948
+task-clock: 0.64
+--------------------------------
+Running for value: 16384
+cache-misses: 34016
+task-clock: 0.96
+--------------------------------

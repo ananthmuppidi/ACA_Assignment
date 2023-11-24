@@ -1,0 +1,60 @@
+Running for value: 16
+l2_cache_misses_from_dc_misses: 25763
+l2_cache_accesses_from_dc_misses: 54324
+L1-dcache-load-misses: 36867
+L1-dcache-loads: 16763348
+L1-icache-load-misses: 2755
+L1-icache-loads: 2786712
+instructions: 49941967
+cycles: <not
+--------------------------------
+Running for value: 32
+l2_cache_misses_from_dc_misses: 25717
+l2_cache_accesses_from_dc_misses: 86270
+L1-dcache-load-misses: 62356
+L1-dcache-loads: 122799504
+L1-icache-load-misses: 4495
+L1-icache-loads: 15015719
+instructions: 319789084
+cycles: 131046873
+--------------------------------
+Running for value: 64
+l2_cache_misses_from_dc_misses: 48225
+l2_cache_accesses_from_dc_misses: 288903
+L1-dcache-load-misses: 262762
+L1-dcache-loads: 969427545
+L1-icache-load-misses: 13238
+L1-icache-loads: 111532663
+instructions: 2477469445
+cycles: 1008408110
+--------------------------------
+Running for value: 128
+l2_cache_misses_from_dc_misses: 54045
+l2_cache_accesses_from_dc_misses: 896354
+L1-dcache-load-misses: 871809
+L1-dcache-loads: 7814454218
+L1-icache-load-misses: 13723
+L1-icache-loads: 872604018
+instructions: 19598215693
+cycles: 7928928609
+--------------------------------
+Running for value: 256
+l2_cache_misses_from_dc_misses: 1114548
+l2_cache_accesses_from_dc_misses: 11952351
+L1-dcache-load-misses: 11467843
+L1-dcache-loads: 62266158681
+L1-icache-load-misses: 307248
+L1-icache-loads: 6976983986
+instructions: 156741760895
+cycles: 63166761825
+--------------------------------
+Running for value: 512
+l2_cache_misses_from_dc_misses: 11423544
+l2_cache_accesses_from_dc_misses: 123050278
+L1-dcache-load-misses: 119072928
+L1-dcache-loads: 498672812314
+L1-icache-load-misses: 2342276
+L1-icache-loads: 55881129407
+instructions: 1254085595269
+cycles: 506439787087
+--------------------------------
