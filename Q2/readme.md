@@ -57,7 +57,7 @@ L1-icache-load-misses: 4676
 L1-icache-loads: 2340147
 instructions: 2164980625
 cycles: 608009915
-CPI : 0.028
+CPI : 0.28
 --------------------------------
 Running for value: 512
 l2_cache_misses_from_dc_misses: 5701839
